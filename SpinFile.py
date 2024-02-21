@@ -1,6 +1,6 @@
 from Spinner import *
 def main():
-    e = open("essay.txt","r") # opens the essay
+    e = open("essay.txt", "r") # opens the essay
     i = e.read() # assigns the entire essay string to i
     s = Spinner() # makes a new object
     s.makeDictionary("synonyms-simplified.txt") # converts the synonym file into a dictionary
