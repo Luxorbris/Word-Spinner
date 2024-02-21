@@ -1,3 +1,8 @@
-
+from Spinner import *
 def main():
-    print ("a")
+    i = input("")
+    s = Spinner()
+    s.makeDictionary("test-synonyms.txt")
+    print(s.synonyms)
+
+main()
