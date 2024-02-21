@@ -1,4 +1,6 @@
 from Spinner import *
+# done by Alexis Gobble
+# GitHub: https://github.com/Luxorbris/Word-Spinner
 def main():
     e = open("essay.txt", "r") # opens the essay
     i = e.read() # assigns the entire essay string to i
