@@ -25,7 +25,7 @@ class Spinner:
                     if randomNumber >= 50:
                         change = True
                         choices = (self.synonyms[p[r]])
-                        randomChoice = randint(0,len(choices))
+                        randomChoice = randint(0,len(choices)-1)
                         wordList.append(choices[randomChoice])
                         break
             if change == False:
